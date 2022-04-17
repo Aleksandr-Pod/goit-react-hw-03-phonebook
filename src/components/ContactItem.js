@@ -1,12 +1,12 @@
 import { ListItem, NumByOrder, TelNum, DelBtn } from "./ContactList.styled";
 import PropTypes from 'prop-types';
 
-export function ContactItem({contact, idx, method}) {
+export function ContactItem({contact, idx, onDelete}) {
     return (
         <ListItem>
             <NumByOrder>{idx + 1}</NumByOrder>
             {contact.name}: <TelNum>{contact.number}</TelNum>
-            <DelBtn type="button" onClick={() => method(contact.id)}>Delete</DelBtn>
+            <DelBtn type="button" onClick={() => onDelete(contact.id)}>Delete</DelBtn>
         </ListItem>
     )
 }
