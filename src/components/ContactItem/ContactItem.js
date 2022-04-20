@@ -1,4 +1,4 @@
-import { ListItem, NumByOrder, TelNum, DelBtn } from "./ContactList.styled";
+import { ListItem, NumByOrder, TelNum, DelBtn } from "../ContactList/ContactList.styled";
 import PropTypes from 'prop-types';
 
 export function ContactItem({contact, idx, onDelete}) {

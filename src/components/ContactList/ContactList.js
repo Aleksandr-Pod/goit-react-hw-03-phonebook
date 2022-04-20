@@ -1,4 +1,4 @@
-import { ContactItem } from "./ContactItem";
+import { ContactItem } from "../ContactItem/ContactItem";
 import PropTypes from 'prop-types';
 
 export function ContactList({ contacts, onDelete }) {

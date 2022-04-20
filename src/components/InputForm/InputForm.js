@@ -1,5 +1,5 @@
 import {Component} from 'react';
-import { InputItem } from "./inputForm.styled";
+import { InputItem } from "./InputForm.styled";
 import { Formik, Form } from 'formik';
 import PropTypes from 'prop-types';
 

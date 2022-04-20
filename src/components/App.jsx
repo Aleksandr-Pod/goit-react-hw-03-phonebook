@@ -1,10 +1,10 @@
 import {Component} from 'react';
-import { InputForm } from './InputForm';
-import { Filter } from './Filter';
-import { ContactList } from './ContactList';
-import { PhonebookBox } from './Phonebook.styled';
-import { InputFormBox } from './inputForm.styled';
-import { ContactListBox } from './ContactList.styled';
+import { InputForm } from './InputForm/InputForm';
+import { Filter } from './Filter/Filter';
+import { ContactList } from './ContactList/ContactList';
+import { PhonebookBox } from './Phonebook/Phonebook.styled';
+import { InputFormBox } from './InputForm/InputForm.styled';
+import { ContactListBox } from './ContactList/ContactList.styled';
 import { nanoid } from 'nanoid';
 
 export class App extends Component {
